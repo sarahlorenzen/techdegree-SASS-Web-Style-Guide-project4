@@ -4,11 +4,11 @@
 @media ($media-med-up) {
   .container {
     max-width: 1400px;
-    @extend %centerItem;
+    @include centerItem;
   }
 
   .centered {
-    @extend %centerItem;
+    @include centerItem;
   }
 
   .row {

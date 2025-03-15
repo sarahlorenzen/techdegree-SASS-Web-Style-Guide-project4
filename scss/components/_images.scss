@@ -3,14 +3,14 @@
 /* ============================================= */
 
 .img-avatar {
-  @extend %centerItem;
+  @include centerItem;
   margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
 }
 
 .img-frame {
-  @extend %centerItem;
+  @include centerItem;
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
@@ -18,5 +18,5 @@
 }
 
 .img-logo {
-  @extend %centerItem;
+  @include centerItem;
 }
