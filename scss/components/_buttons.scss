@@ -13,21 +13,21 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $btn-default;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $btn-error;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $btn-info;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $btn-success;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $btn-warning;
 }
